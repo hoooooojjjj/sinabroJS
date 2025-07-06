@@ -1,14 +1,15 @@
 {
   "name": "sinabrojs",
-  "version": "1.0.0",
-  "main": "index.js",
+  "source": "src/index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel",
+    "build": "parcel build"
   },
+  "devDependencies": {
+    "parcel": "latest"
+  },
+  "version": "1.0.0",
   "author": "",
   "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "static-server": "^2.2.1"
-  }
+  "description": ""
 }
