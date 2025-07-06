@@ -1,1 +1,0 @@
-{"mappings":"ACAA,QAAQ,GAAG,CAAC","sources":["<anon>","Documents/Learning/sinabroJS/src/app.js"],"sourcesContent":["var $34a415ef55df0355$exports = {};\nconsole.log(\"Hello world!\");\n\n\n//# sourceMappingURL=sinabroJS.f3c82802.js.map\n","console.log(\"Hello world!\");\n"],"names":["console","log"],"version":3,"file":"sinabroJS.f3c82802.js.map"}
