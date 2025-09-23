@@ -1,25 +1,18 @@
-document.body.innerHTML = "<h1>Hello World</h1>";
-const h2 = document.createElement("h2")
-const h3 = document.createElement('h3');
-h2.innerHTML = "Hello World2"
-h3.innerHTML = "Hello World3"
-document.body.appendChild(h2)
-document.body.prepend(h3)
+document.querySelector("#app").innerHTML =`
+<button class="hello1">Hello1</button>
+<button class="hello2">Hello2</button>
+<button class="hello3">Hello3</button>
 
-const addClass = (ele)=> {
-    ele.classList.add("title")
-    console.log(ele.className)
-}
+<div>
+  <input class="input" type="text" placeHolder="input your name" />
+</div>
+`
 
-const insertBefore = (newNode, referenceNode)=>{
-  document.body.insertBefore(newNode, referenceNode);
-  console.log(referenceNode)
-}
+document.querySelector("button").addEventListener('click' ,()=>{
+  const input = document.querySelector(".input")
+  console.log(input.value)
+})
 
-addClass(h2)
-
-const p = document.createElement('p');
-p.innerText = "Hi, I am hojun"
-document.body.insertBefore(h2, p);
-
-insertBefore(h2, p)
+document.querySelector(".input").addEventListener("input", (e)=>{
+  console.log(e.target.value)
+} )
