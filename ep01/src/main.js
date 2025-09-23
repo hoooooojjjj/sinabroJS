@@ -6,6 +6,15 @@ document.querySelector("#app").innerHTML =`
 <div>
   <input class="input" type="text" placeHolder="input your name" />
 </div>
+
+<div class="parentOfButton">
+<button class="helloWorldButton" type="button">
+  <span>Hello</span>
+  <span>World</span>
+  <span>!</span>
+</button>
+
+</div>
 `
 
 document.querySelector("button").addEventListener('click' ,()=>{
@@ -15,4 +24,13 @@ document.querySelector("button").addEventListener('click' ,()=>{
 
 document.querySelector(".input").addEventListener("input", (e)=>{
   console.log(e.target.value)
+} )
+
+document.querySelector(".helloWorldButton").addEventListener("click", (e)=>{
+  e.stopPropagation()
+  console.log("event fron button", e.target)
+} )
+
+document.querySelector(".parentOfButton").addEventListener("click", (e)=>{
+  console.log("event fron div", e.target)
 } )
