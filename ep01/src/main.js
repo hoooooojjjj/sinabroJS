@@ -34,3 +34,10 @@ document.querySelector(".helloWorldButton").addEventListener("click", (e)=>{
 document.querySelector(".parentOfButton").addEventListener("click", (e)=>{
   console.log("event fron div", e.target)
 } )
+
+document.querySelector("body").addEventListener("keyup", (e)=>{
+  console.log(e.key ,e.shiftKey, e.ctrlKey)
+  if((e.key === "c" || e.key === "ㅊ" )&& e.ctrlKey === true){
+    alert("복사되었습니다")
+  }
+})
