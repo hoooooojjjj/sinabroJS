@@ -31,18 +31,42 @@
 - 모듈 시스템 (import/export)
 - 최신 자바스크립트 문법 활용
 
+### 5. Functional Programming (함수형 프로그래밍)
+- 순수함수와 불변성의 이해
+- 고차함수와 함수 합성 패턴
+- Maybe/Either 모나드를 통한 안전한 에러 처리
+
+### 6. Performance Optimization (성능 최적화)
+- 메모리 관리와 가비지 컬렉션 최적화
+- DOM 조작과 이벤트 처리 효율화
+- 알고리즘과 캐싱 전략 최적화
+
+### 7. Design Patterns (디자인 패턴)
+- GoF 디자인 패턴의 JavaScript 구현
+- 아키텍처 패턴 (MVC, Observer, Pub/Sub)
+- 실무에서 바로 쓸 수 있는 패턴들
+
+### 8. Advanced Concepts (고급 개념)
+- Proxy와 Reflect를 통한 메타프로그래밍
+- Symbol, Iterator, Generator 고급 활용
+- 바이너리 데이터 처리와 엔진 최적화
+
 ## 🛠 프로젝트 구조
 
 ```
 sinabroJS/
 ├── README.md
-├── ep01/                    # 기본 프로젝트
-├── my-project/              # TypeScript 프로젝트
-└── examples/                # 학습 예제들
-    ├── closure/
-    ├── prototype/
-    ├── async/
-    └── es6-modules/
+├── ep01/                         # 기본 프로젝트
+├── my-project/                   # TypeScript 프로젝트
+└── examples/                     # 학습 예제들
+    ├── closure/                  # 클로저와 스코프
+    ├── prototype/                # 프로토타입과 상속
+    ├── async/                    # 비동기 프로그래밍
+    ├── es6-modules/              # ES6+ 모던 JavaScript
+    ├── functional-programming/   # 함수형 프로그래밍
+    ├── performance-optimization/ # 성능 최적화
+    ├── design-patterns/          # 디자인 패턴
+    └── advanced-concepts/        # 고급 개념들
 ```
 
 ## 🏃‍♂️ 시작하기
